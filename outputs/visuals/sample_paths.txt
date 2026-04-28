@@ -1,0 +1,5 @@
+Discovery Path from 351 (NCBIGene:351) to positive regulation of norepinephrine uptake (GO:0051623):
+  Step 0: 351 (NCBIGene:351)
+  Step 1: protein binding (GO:0005515)
+  Step 2: 60 (NCBIGene:60)
+  Step 3: positive regulation of norepinephrine uptake (GO:0051623)

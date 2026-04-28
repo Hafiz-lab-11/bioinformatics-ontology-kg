@@ -1,0 +1,40 @@
+# Bioinformatics Ontology Knowledge Graph Summary Report
+Generated on: 2026-04-12 19:18:20
+
+## 1. Graph Statistics
+- Total Nodes: 109646
+- Total Edges: 492081
+
+### Node Type Breakdown:
+  - BiologicalProcess: 24428
+  - Gene: 20826
+  - Phenotype: 19389
+  - Anatomy: 18792
+  - Disease: 12079
+  - MolecularFunction: 10056
+  - CellularComponent: 4076
+
+### Edge Relationship Breakdown:
+  - involved_in: 138969
+  - is_a: 131017
+  - part_of: 117771
+  - enables: 94320
+  - regulates: 2856
+  - negatively_regulates: 2506
+  - positively_regulates: 2505
+  - develops_from: 2137
+
+## 2. Biological Interpretation
+This Knowledge Graph (KG) represents a multi-scale biological network integrating human genetic data with formal ontologies.
+
+- **Genetic Basis:** It contains 20826 Human Genes linked to Gene Ontology (GO) terms via 'enables' (functions), 'involved_in' (processes), and 'part_of' (cellular components).
+- **Functional Context:** The high frequency of ontology terms (0) paired with hierarchical 'is_a' relationships allows for computational reasoning across biological scales—from molecular function to cellular anatomy (UBERON) and phenotypic manifestations (HP).
+- **Clinical Relevance:** By connecting human genes to Disease (DOID) and Human Phenotype (HP) ontologies, this KG serves as a framework for identifying gene-disease associations and potential pathways involved in disease etiology.
+
+## 3. Potential Applications
+- **Path Analysis:** Identifying shortest paths between genes and phenotypes to discover candidate mechanisms.
+- **Centrality Analysis:** High-degree nodes (hubs) may indicate multi-functional genes or central biological processes critical to cell survival.
+- **Data Mining:** A structured substrate for machine learning models (e.g., Graph Neural Networks) to predict novel gene-disease links.
+
+---
+Conclusion: This KG provides a standardized, modular representation of biological knowledge, suitable for research and clinical interpretation.
